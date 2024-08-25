@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HereisWhatHidesinEveryCshar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordDemo", "HereisWhatHidesinEveryCsharpRecord\RecordDemo\RecordDemo.csproj", "{46696A5B-EE3C-416F-A8A2-FF744ECC0E58}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CovarianceandContravariance", "CovarianceandContravariance", "{8699CB1B-3887-45AB-AA11-50C837CBA7A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covariance_Contravariance", "CovarianceandContravariance\Covariance_Contravariance\Covariance_Contravariance.csproj", "{FD5CE366-215E-47F0-B3CA-7145F709715C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{46696A5B-EE3C-416F-A8A2-FF744ECC0E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46696A5B-EE3C-416F-A8A2-FF744ECC0E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46696A5B-EE3C-416F-A8A2-FF744ECC0E58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5CE366-215E-47F0-B3CA-7145F709715C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5CE366-215E-47F0-B3CA-7145F709715C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5CE366-215E-47F0-B3CA-7145F709715C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5CE366-215E-47F0-B3CA-7145F709715C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{46696A5B-EE3C-416F-A8A2-FF744ECC0E58} = {7AA54A83-105D-482D-A0C1-79BEA32BAD0D}
+		{FD5CE366-215E-47F0-B3CA-7145F709715C} = {8699CB1B-3887-45AB-AA11-50C837CBA7A3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC6EB634-5756-4259-86D8-DAC91092AACB}
