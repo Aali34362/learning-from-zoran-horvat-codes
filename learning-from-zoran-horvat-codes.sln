@@ -35,6 +35,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_9HowDoesResolveVirtualFunc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HowDoesResolveVirtualFunctions", "HowDoesResolveVirtualFunctions\HowDoesResolveVirtualFunctions\HowDoesResolveVirtualFunctions.csproj", "{3A94E46F-D794-4653-88EA-14D5D2B186CF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_10ResolveObjectTypeandMethods", "_10ResolveObjectTypeandMethods", "{065B993A-BB62-4DAF-ACBB-453565C6F6E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResolveObjectTypeandMethods", "ResolveObjectTypeandMethods\ResolveObjectTypeandMethods\ResolveObjectTypeandMethods.csproj", "{DE270C84-F6C6-41B8-B587-E1A27BB7BC85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +77,10 @@ Global
 		{3A94E46F-D794-4653-88EA-14D5D2B186CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A94E46F-D794-4653-88EA-14D5D2B186CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A94E46F-D794-4653-88EA-14D5D2B186CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE270C84-F6C6-41B8-B587-E1A27BB7BC85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE270C84-F6C6-41B8-B587-E1A27BB7BC85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE270C84-F6C6-41B8-B587-E1A27BB7BC85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE270C84-F6C6-41B8-B587-E1A27BB7BC85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +94,7 @@ Global
 		{BD4907DB-F172-4129-B722-017CF84F95FB} = {04D879BD-1D81-43A9-98D3-24B9040B11B5}
 		{9DFDA4CD-24F2-4677-AB26-E6B4BB50E9E1} = {BABE7A3C-ABE9-44E8-80B3-8DB2B58B0F55}
 		{3A94E46F-D794-4653-88EA-14D5D2B186CF} = {B96ECC06-AD5F-4673-9B64-37B56CB0C84C}
+		{DE270C84-F6C6-41B8-B587-E1A27BB7BC85} = {065B993A-BB62-4DAF-ACBB-453565C6F6E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC6EB634-5756-4259-86D8-DAC91092AACB}
