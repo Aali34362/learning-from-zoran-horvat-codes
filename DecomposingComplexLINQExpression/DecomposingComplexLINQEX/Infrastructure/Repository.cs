@@ -6,7 +6,7 @@ public class Repository
 {
     public IEnumerable<Usage> GetUsagesFromLatest(DateTime at)
     {
-        Random rnd = new(Guid.NewGuid().GetHashCode()));
+        Random rnd = new(Guid.NewGuid().GetHashCode());
         int stepSeconds = 240;
         int durationSeconds = 620;
         DateTime time = at;

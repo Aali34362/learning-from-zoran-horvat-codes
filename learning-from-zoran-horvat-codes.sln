@@ -5,19 +5,23 @@ VisualStudioVersion = 17.11.35125.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_1HereisWhatHidesinEveryCsharpRecord", "_1HereisWhatHidesinEveryCsharpRecord", "{7AA54A83-105D-482D-A0C1-79BEA32BAD0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordDemo", "HereisWhatHidesinEveryCsharpRecord\RecordDemo\RecordDemo.csproj", "{46696A5B-EE3C-416F-A8A2-FF744ECC0E58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordDemo", "HereisWhatHidesinEveryCsharpRecord\RecordDemo\RecordDemo.csproj", "{46696A5B-EE3C-416F-A8A2-FF744ECC0E58}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_2CovarianceandContravariance", "_2CovarianceandContravariance", "{8699CB1B-3887-45AB-AA11-50C837CBA7A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Covariance_Contravariance", "CovarianceandContravariance\Covariance_Contravariance\Covariance_Contravariance.csproj", "{FD5CE366-215E-47F0-B3CA-7145F709715C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Covariance_Contravariance", "CovarianceandContravariance\Covariance_Contravariance\Covariance_Contravariance.csproj", "{FD5CE366-215E-47F0-B3CA-7145F709715C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_3ConstructingComplexLINQExpression", "_3ConstructingComplexLINQExpression", "{324CD128-117B-41EA-B159-D52AD93559D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructingComplexLINQEX", "ConstructingComplexLINQExpression\ConstructingComplexLINQEX\ConstructingComplexLINQEX.csproj", "{B32244C0-D4DE-4168-8563-17DEBB61F8A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructingComplexLINQEX", "ConstructingComplexLINQExpression\ConstructingComplexLINQEX\ConstructingComplexLINQEX.csproj", "{B32244C0-D4DE-4168-8563-17DEBB61F8A7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_4DecomposingComplexLINQExpression", "_4DecomposingComplexLINQExpression", "{008D7C9D-978B-449E-86EA-90455E0D31B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecomposingComplexLINQEX", "DecomposingComplexLINQExpression\DecomposingComplexLINQEX\DecomposingComplexLINQEX.csproj", "{EF3A2240-F8D8-4B40-984A-FDCFB8FD54A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecomposingComplexLINQEX", "DecomposingComplexLINQExpression\DecomposingComplexLINQEX\DecomposingComplexLINQEX.csproj", "{EF3A2240-F8D8-4B40-984A-FDCFB8FD54A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_5NondestructiveMutationandRecords", "_5NondestructiveMutationandRecords", "{21DF6789-D350-4CC9-81A8-3B009470B740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NondestructiveMutationandRecords", "NondestructiveMutationandRecords\NondestructiveMutationandRecords\NondestructiveMutationandRecords.csproj", "{D8777A07-35B8-4475-9178-19043FC80115}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,10 @@ Global
 		{EF3A2240-F8D8-4B40-984A-FDCFB8FD54A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF3A2240-F8D8-4B40-984A-FDCFB8FD54A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF3A2240-F8D8-4B40-984A-FDCFB8FD54A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8777A07-35B8-4475-9178-19043FC80115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8777A07-35B8-4475-9178-19043FC80115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8777A07-35B8-4475-9178-19043FC80115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8777A07-35B8-4475-9178-19043FC80115}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +58,7 @@ Global
 		{FD5CE366-215E-47F0-B3CA-7145F709715C} = {8699CB1B-3887-45AB-AA11-50C837CBA7A3}
 		{B32244C0-D4DE-4168-8563-17DEBB61F8A7} = {324CD128-117B-41EA-B159-D52AD93559D9}
 		{EF3A2240-F8D8-4B40-984A-FDCFB8FD54A0} = {008D7C9D-978B-449E-86EA-90455E0D31B4}
+		{D8777A07-35B8-4475-9178-19043FC80115} = {21DF6789-D350-4CC9-81A8-3B009470B740}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC6EB634-5756-4259-86D8-DAC91092AACB}
