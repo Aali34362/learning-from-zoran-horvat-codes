@@ -54,3 +54,9 @@ Examples:
 This is useful for aligning numbers or text in a tabular format when printing them out.
  */
 Console.WriteLine();
+
+//How Does List REALLY Work in .NET
+MyList<int> nlist = new();
+foreach (int x in data) nlist.Add(x);
+list.ForEach(x => Console.Write($"{x,3}"));
+Console.WriteLine();

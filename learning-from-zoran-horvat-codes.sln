@@ -27,6 +27,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_6WhatMakesListSoEfficient"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatMakesListSoEfficient", "WhatMakesListSoEfficient\WhatMakesListSoEfficient\WhatMakesListSoEfficient.csproj", "{BD4907DB-F172-4129-B722-017CF84F95FB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_8HowDoVirtualFunctionsWork", "_8HowDoVirtualFunctionsWork", "{BABE7A3C-ABE9-44E8-80B3-8DB2B58B0F55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HowDoVirtualFunctionsWork", "HowDoVirtualFunctionsWork\HowDoVirtualFunctionsWork\HowDoVirtualFunctionsWork.csproj", "{9DFDA4CD-24F2-4677-AB26-E6B4BB50E9E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,10 @@ Global
 		{BD4907DB-F172-4129-B722-017CF84F95FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD4907DB-F172-4129-B722-017CF84F95FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD4907DB-F172-4129-B722-017CF84F95FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DFDA4CD-24F2-4677-AB26-E6B4BB50E9E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFDA4CD-24F2-4677-AB26-E6B4BB50E9E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFDA4CD-24F2-4677-AB26-E6B4BB50E9E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFDA4CD-24F2-4677-AB26-E6B4BB50E9E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +76,7 @@ Global
 		{EF3A2240-F8D8-4B40-984A-FDCFB8FD54A0} = {008D7C9D-978B-449E-86EA-90455E0D31B4}
 		{D8777A07-35B8-4475-9178-19043FC80115} = {21DF6789-D350-4CC9-81A8-3B009470B740}
 		{BD4907DB-F172-4129-B722-017CF84F95FB} = {04D879BD-1D81-43A9-98D3-24B9040B11B5}
+		{9DFDA4CD-24F2-4677-AB26-E6B4BB50E9E1} = {BABE7A3C-ABE9-44E8-80B3-8DB2B58B0F55}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC6EB634-5756-4259-86D8-DAC91092AACB}
